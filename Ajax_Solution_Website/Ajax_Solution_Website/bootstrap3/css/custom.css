@@ -1,0 +1,214 @@
+﻿body {
+     font-size:15px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing:0.7px;
+}
+
+
+*{
+    
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing:0.7px;
+}
+
+.spacer10 {
+    display: block;
+    height: 10px;
+}
+
+.spacer20 {
+    display: block;
+    height: 20px;
+}
+
+.spacer30 {
+    display: block;
+    height: 30px;
+}
+.m-t-20 {
+    margin-top:20px;
+}
+.btn-custom {
+    background-color: #ffce00;
+    border-radius:50px; 
+    font-weight:bold;
+    padding:10px 10px;
+    font-size:15px;
+    width:220px;
+    transition:0.5s;
+}
+    .btn-custom .fa {
+        transition:0.5s;
+    }
+    .btn-custom:hover .fa {
+        margin-right: -20px;
+       transition:0.5s;
+    }
+
+.section-header {
+    font-size:50px;
+    color:#0375b4;
+    font-weight:bold;
+    margin-top:50px;
+
+}
+
+.modal {
+    margin-top:30vh;
+}
+.modal-header {
+    background-color:#0375b4;
+    color:#ffce00;
+}
+
+
+
+
+
+
+
+
+
+.menu {
+    padding: 0px;
+    list-style-type: none;
+}
+
+    .menu li {
+        float: left;
+        padding: 0px 10px;
+    }
+
+        .menu li a {
+            text-decoration: none;
+            color: #0375b4;
+            border-bottom: solid 1px #fed561;
+            border-width: 0px;
+            font-weight:bold;
+        }
+
+        .menu li:nth-child(5) {
+            padding-right: 0px;
+        }
+
+        .menu li a:hover .fa {
+            color: #000;
+            transition: 0.5s;
+        }
+
+        .menu li a:hover {
+            border-width: 1px;
+        }
+
+/*banner*/
+.banner {
+    background-image: url('../../Images/banner.jpg');
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+    .banner .banner-inner-wrapper {
+        padding-top: 45vh;
+    }
+
+.banner-inner-wrapper h1 {
+    color: #ffce00;
+    font-size: 60px;
+    font-weight: bold;
+}
+/*what we do*/
+.services-right-text-block h3 {
+    font-weight:bold;
+}
+.services-right-text-block a {
+    color:#0375b4;
+    text-decoration:none;
+}
+
+
+/*footer*/
+footer > div {
+     background-color: #f2dd71;
+     padding:30px 0px;
+     color:black;
+     font-size:13px;
+}
+
+.footer-section-header {
+    font-weight:bold;
+    color:black;
+}
+.footer-navigation {
+    list-style-type:none;
+    padding:0px;
+}
+    .footer-navigation li {
+            padding:5px 0px;
+    }
+    .footer-navigation a{
+        text-decoration:none;
+        color:black;
+    
+    }
+.footer-line {
+    height:5px;
+    width:20px;
+    background-color:#0375b4;
+}
+
+.footer-social {
+        float: right;
+        margin-top: 1px;
+    }
+
+       .footer-social ul {
+            float: right;
+            margin-bottom: 0;
+        }
+
+          .footer-social ul li {
+                list-style-type: none;
+                float: left;
+                margin-right: 10px;
+            }
+
+              .footer-social ul li a {
+                    width: 25px;
+                    height: 25px;
+                    line-height: 25px;
+                    color: #fff;
+                    display: block;
+                    text-align: center;
+                    transition: all 0.4s ease;
+                    -webkit-transition: all 0.4s ease;
+                    -moz-transition: all 0.4s ease;
+                    font-size: 14px;
+                }
+
+                .footer-social ul li a:hover {
+                        background: #fff;
+                        border-color: #fff;
+                        color: #2e2425;
+                        border-radius: 50px;
+                    }
+
+
+
+
+
+@media only screen and (max-width:600px) {
+    .services-right-text-block {
+        padding-left:30px;
+    }
+    .banner .banner-inner-wrapper {
+       padding-top:30vh;
+    }
+    .banner-inner-wrapper h1 {
+        font-size: 40px;
+    }
+    .menu li {
+        clear:both;
+        padding:15px 0px;
+    }
+}
